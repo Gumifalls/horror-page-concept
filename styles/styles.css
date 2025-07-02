@@ -14,16 +14,14 @@
     color: green;
 }
 
+main {
+    background-color: rgb(100, 100, 100);
+}
 
 body {
     font-family: "Spectral", serif;
-background-color: grey;
 }
 
-.li-nav{
-    list-style: none;
-}
-.nav-link{
-    text-decoration: none;
-    color: black;
+footer{
+    background-color: rgb(32, 30, 30);
 }
