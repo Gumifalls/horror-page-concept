@@ -9,6 +9,7 @@ body {
 }
 
 footer {
+  font-size: 20px;
   background-color: rgb(32, 30, 30);
 }
 footer .logo-footer {
@@ -19,7 +20,6 @@ footer .logo-footer {
 }
 footer .p-cuerpo {
   color: black;
-  font-size: 20px;
   text-align: center;
 }
 
@@ -32,6 +32,13 @@ main p {
 }
 main .h-titulos {
   color: red;
+  text-align: center;
+  text-justify: center;
+}
+main .h-miticos {
+  color: green;
+  text-align: center;
+  text-justify: center;
 }
 main .p-miticos {
   color: green;
@@ -43,9 +50,15 @@ main .p-cuerpo {
 main .regular-img {
   width: 512px;
   height: 512px;
+  display: block;
+  margin: auto;
 }
 
-.logo-nav {
+nav {
+  font-size: 20px;
+  background-color: rgb(32, 30, 30);
+}
+nav .logo-nav {
   width: 90px;
   height: auto;
 }

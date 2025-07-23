@@ -1,4 +1,11 @@
-.logo-nav{
-    width:90px;
-    height:auto;
+@use "../utilities/variables";
+
+nav{
+    font-size: variables.$font-nf;
+    background-color: variables.$backgr-nf;
+
+    .logo-nav{
+        width:90px;
+        height:auto;
+    }
 }

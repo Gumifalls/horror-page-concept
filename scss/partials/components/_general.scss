@@ -9,7 +9,15 @@ main{
     }
     .h-titulos{
         color: red;
+        text-align: center;
+        text-justify: center;
 
+    }
+
+    .h-miticos{
+        color: green;
+        text-align: center;
+        text-justify: center;
     }
     .p-miticos{
         color: green;
@@ -22,7 +30,10 @@ main{
     .regular-img{
         width:512px;
         height:512px;
+        display: block;
+        margin: auto;
     }
+    
 }
 
 
